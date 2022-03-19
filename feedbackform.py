@@ -13,7 +13,7 @@ browser.get('<formLink>') # paste your form link here <formLink>
 radio_buttons = browser.find_elements_by_class_name("appsMaterialWizToggleRadiogroupOffRadio")
 # radio_buttons[2].click() # uncomment if u section is asked
 
-for i in range(5,760,4):   # (start,end,review(0,1,2,3))
+for i in range(0,760,3):   # (start,end,review(0,1,2,3))
     radio_buttons[i].click() # feedbacks (good)
 
 
